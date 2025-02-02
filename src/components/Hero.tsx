@@ -13,7 +13,7 @@ const Hero = () => {
         </h1>
         <p className="text-xl sm:text-2xl text-bluegray mb-12 max-w-3xl mx-auto animate-fade-up">
           Descubre el futuro de los activos digitales con el token IMP. Únete a nuestro ecosistema
-          de staking, farming, gaming y más. </br> TOKEN IMP = 78kHXrS7sFnmEPyEH35Hpv5qLWaDsnpfEoBbWx1yrWFK
+          de staking, farming, gaming y más.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up">
           <a
