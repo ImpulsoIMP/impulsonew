@@ -13,17 +13,17 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Enlaces Rápidos</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-bluegray hover:text-royal">
+                <a href="https://github.com/ImpulsoIMP/impulso-NEW/raw/main/public/Whitepaper%20de%20Impulso.pdf" target="_blank" className="text-bluegray hover:text-royal">
                   Whitepaper
                 </a>
               </li>
               <li>
-                <a href="#" className="text-bluegray hover:text-royal">
-                  Documentación
+                <a href="https://raydium.io/swap/?inputMint=sol&outputMint=78kHXrS7sFnmEPyEH35Hpv5qLWaDsnpfEoBbWx1yrWFK"  target="_blank" className="text-bluegray hover:text-royal">
+                  Comprar IMP
                 </a>
               </li>
               <li>
-                <a href="#" className="text-bluegray hover:text-royal">
+                <a href="https://t.me/Impulso_IMP" target="_blank" className="text-bluegray hover:text-royal">
                   Comunidad
                 </a>
               </li>
@@ -39,11 +39,6 @@ const Footer = () => {
               </li>
               <li>
                 <a href="https://t.me/ImpulsoIMP" className="text-bluegray hover:text-royal" target="_blank">
-                  Telegram
-                </a>
-              </li>
-              <li>
-                <a href="https://t.me/Impulso_IMP" className="text-bluegray hover:text-royal" target="_blank">
                   Telegram
                 </a>
               </li>
