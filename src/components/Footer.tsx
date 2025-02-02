@@ -33,18 +33,18 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Conectar</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-bluegray hover:text-royal">
+                <a href="https://x.com/impulsoimp" className="text-bluegray hover:text-royal">
                   Twitter
                 </a>
               </li>
               <li>
-                <a href="#" className="text-bluegray hover:text-royal">
+                <a href="https://t.me/ImpulsoIMP" className="text-bluegray hover:text-royal">
                   Telegram
                 </a>
               </li>
               <li>
-                <a href="#" className="text-bluegray hover:text-royal">
-                  Discord
+                <a href="https://t.me/Impulso_IMP" className="text-bluegray hover:text-royal">
+                  Telegram
                 </a>
               </li>
             </ul>
