@@ -56,7 +56,6 @@ const Features = () => {
 
   return (
     <div className="py-24 bg-midnight" id="ecosystem">
-<div className="absolute inset-0 bg-[url('https://raw.githubusercontent.com/ImpulsoIMP/Impulso/d00394ce303287456dd1cc1655af245e77741596/marketplace-bg.png')] opacity-10 bg-cover bg-center" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
@@ -82,7 +81,6 @@ const Features = () => {
                   <p className="text-bluegray">{feature.description}</p>
                 </div>
               </div>
-                  </div>
             </a>
           ))}
         </div>
