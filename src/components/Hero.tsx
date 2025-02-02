@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ShoppingCart } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -16,6 +16,15 @@ const Hero = () => {
           de staking, farming, gaming y más.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up">
+          <a
+            href="https://raydium.io/swap/?inputMint=sol&outputMint=78kHXrS7sFnmEPyEH35Hpv5qLWaDsnpfEoBbWx1yrWFK"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 transition-colors"
+          >
+            Comprar IMP
+            <ShoppingCart className="ml-2 h-5 w-5" />
+          </a>
           <a
             href="#ecosystem"
             className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-royal hover:bg-royal/80 transition-colors"
