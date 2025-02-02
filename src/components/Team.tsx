@@ -21,12 +21,22 @@ const Team = () => {
 
   const partners = [
     {
-      name: "Crypto Exchange A",
+      name: "Raydium",
       role: "Socio de Intercambio",
-      image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
+      image: "https://github.com/ImpulsoIMP/impulso-NEW/raw/main/public/Cryptocurrency-Raydium-Logo-Graphics-15118885-1.jpg",
     },
     {
-      name: "DeFi Protocol B",
+      name: "Solana",
+      role: "Socio de Red",
+      image: "https://github.com/ImpulsoIMP/impulso-NEW/raw/main/public/Solana_cryptocurrency_two.jpg",
+    },
+    {
+      name: "Phantom",
+      role: "Socio de Wallet",
+      image: "https://github.com/ImpulsoIMP/impulso-NEW/raw/main/public/4850.sp3ow1.192x192.png",
+    },
+     {
+      name: "DeFi Protocol",
       role: "Socio de Protocolo",
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
     },
