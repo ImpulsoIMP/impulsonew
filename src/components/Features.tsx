@@ -12,43 +12,43 @@ const Features = () => {
   const features = [
     {
       title: "Staking",
-      description: "Earn rewards by staking your IMP tokens",
+      description: "Gana recompensas haciendo staking de tus tokens IMP",
       icon: Coins,
       href: "#staking",
     },
     {
       title: "Farming",
-      description: "Participate in yield farming with multiple pools",
+      description: "Participa en yield farming con múltiples pools",
       icon: Sprout,
       href: "#farming",
     },
     {
-      title: "Game",
-      description: "Play to earn in our immersive gaming ecosystem",
+      title: "Juego",
+      description: "Juega para ganar en nuestro ecosistema inmersivo",
       icon: Gamepad2,
       href: "#game",
     },
     {
-      title: "Shop",
-      description: "Purchase items with IMP tokens",
+      title: "Tienda",
+      description: "Compra artículos con tokens IMP",
       icon: ShoppingBag,
       href: "#shop",
     },
     {
-      title: "NFT Marketplace",
-      description: "Trade unique digital assets",
+      title: "Mercado NFT",
+      description: "Comercia con activos digitales únicos",
       icon: Image,
       href: "#nft",
     },
     {
-      title: "Betting",
-      description: "Participate in secure crypto betting",
+      title: "Apuestas",
+      description: "Participa en apuestas seguras con cripto",
       icon: DollarSign,
       href: "#betting",
     },
     {
-      title: "Investments",
-      description: "Grow your portfolio with IMP",
+      title: "Inversiones",
+      description: "Haz crecer tu portafolio con IMP",
       icon: PiggyBank,
       href: "#investments",
     },
@@ -59,11 +59,10 @@ const Features = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Our Ecosystem
+            Nuestro Ecosistema
           </h2>
           <p className="text-bluegray max-w-2xl mx-auto">
-            Explore the diverse features and opportunities within the Imulso
-            ecosystem
+            Explora las diversas características y oportunidades dentro del ecosistema Impulso
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

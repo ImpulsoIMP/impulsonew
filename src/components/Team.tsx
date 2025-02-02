@@ -4,7 +4,7 @@ const Team = () => {
   const team = [
     {
       name: "John Doe",
-      role: "CEO & Founder",
+      role: "CEO y Fundador",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
     },
     {
@@ -14,7 +14,7 @@ const Team = () => {
     },
     {
       name: "Mike Johnson",
-      role: "Lead Developer",
+      role: "Desarrollador Principal",
       image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
     },
   ];
@@ -22,12 +22,12 @@ const Team = () => {
   const partners = [
     {
       name: "Crypto Exchange A",
-      role: "Exchange Partner",
+      role: "Socio de Intercambio",
       image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
     },
     {
       name: "DeFi Protocol B",
-      role: "Protocol Partner",
+      role: "Socio de Protocolo",
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
     },
   ];
@@ -37,15 +37,15 @@ const Team = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Our Team & Partners
+            Nuestro Equipo y Socios
           </h2>
           <p className="text-bluegray max-w-2xl mx-auto">
-            Meet the visionaries behind Imulso and our strategic partners
+            Conoce a los visionarios detrás de Impulso y nuestros socios estratégicos
           </p>
         </div>
 
         <div className="mb-20">
-          <h3 className="text-2xl font-bold text-white mb-8 text-center">Core Team</h3>
+          <h3 className="text-2xl font-bold text-white mb-8 text-center">Equipo Principal</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {team.map((member) => (
               <div key={member.name} className="bg-midnight/50 rounded-lg p-6">
@@ -64,7 +64,7 @@ const Team = () => {
         </div>
 
         <div>
-          <h3 className="text-2xl font-bold text-white mb-8 text-center">Partners</h3>
+          <h3 className="text-2xl font-bold text-white mb-8 text-center">Socios</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {partners.map((partner) => (
               <div key={partner.name} className="bg-midnight/50 rounded-lg p-6">

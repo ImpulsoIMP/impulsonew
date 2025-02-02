@@ -6,11 +6,11 @@ const Footer = () => {
           <div>
             <span className="text-2xl font-bold text-royal">Impulso</span>
             <p className="mt-4 text-bluegray">
-              The future of digital assets and decentralized finance.
+              El futuro de los activos digitales y las finanzas descentralizadas.
             </p>
           </div>
           <div>
-            <h3 className="text-white font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-white font-semibold mb-4">Enlaces Rápidos</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-bluegray hover:text-royal">
@@ -19,18 +19,18 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-bluegray hover:text-royal">
-                  Documentation
+                  Documentación
                 </a>
               </li>
               <li>
                 <a href="#" className="text-bluegray hover:text-royal">
-                  Community
+                  Comunidad
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-white font-semibold mb-4">Connect</h3>
+            <h3 className="text-white font-semibold mb-4">Conectar</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-bluegray hover:text-royal">
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 pt-8 border-t border-navy">
           <p className="text-center text-bluegray">
-            © {new Date().getFullYear()} Impulso. All rights reserved.
+            © {new Date().getFullYear()} Impulso. Todos los derechos reservados.
           </p>
         </div>
       </div>

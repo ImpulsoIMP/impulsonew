@@ -9,14 +9,14 @@ const Stats = () => {
             <Users className="h-12 w-12 text-royal" />
             <div>
               <p className="text-4xl font-bold text-white">100K+</p>
-              <p className="text-bluegray">Active Users</p>
+              <p className="text-bluegray">Usuarios Activos</p>
             </div>
           </div>
           <div className="bg-navy/50 rounded-lg p-8 flex items-center gap-4">
             <Coins className="h-12 w-12 text-royal" />
             <div>
               <p className="text-4xl font-bold text-white">21M</p>
-              <p className="text-bluegray">Total Token Supply</p>
+              <p className="text-bluegray">Suministro Total de Tokens</p>
             </div>
           </div>
         </div>
