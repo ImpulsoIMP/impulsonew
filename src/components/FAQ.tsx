@@ -8,9 +8,9 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: "¿Qué es Imulso (IMP)?",
+      question: "¿Qué es Impulso (IMP)?",
       answer:
-        "Imulso (IMP) es una criptomoneda innovadora que ofrece un ecosistema completo de servicios financieros descentralizados, incluyendo staking, farming, juegos, NFTs y más.",
+        "Impulso (IMP) es una criptomoneda innovadora que ofrece un ecosistema completo de servicios financieros descentralizados, incluyendo staking, farming, juegos, NFTs y más.",
     },
     {
       question: "¿Cómo puedo hacer staking con IMP?",
@@ -25,7 +25,7 @@ const FAQ = () => {
     {
       question: "¿Existe un mercado NFT?",
       answer:
-        "Sí, contamos con un marketplace NFT donde puedes comprar, vender y comerciar activos digitales únicos. Todos los NFTs están respaldados por la blockchain de Imulso.",
+        "Sí, contamos con un marketplace NFT donde puedes comprar, vender y comerciar activos digitales únicos. Todos los NFTs están respaldados por la blockchain de Impulso.",
     },
     {
       question: "¿Cómo invertir sabiamente?",
@@ -42,7 +42,7 @@ const FAQ = () => {
             Sus preguntas respondidas
           </h2>
           <p className="text-bluegray">
-            Encuentre respuestas a las preguntas más frecuentes sobre Imulso
+            Encuentre respuestas a las preguntas más frecuentes sobre Impulso
           </p>
         </div>
 

@@ -8,7 +8,7 @@ const Hero = () => {
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 animate-fade-up">
           Welcome to{" "}
           <span className="bg-gradient-to-r from-royal to-bluegray text-transparent bg-clip-text">
-            Imulso
+            Impulso
           </span>
         </h1>
         <p className="text-xl sm:text-2xl text-bluegray mb-12 max-w-3xl mx-auto animate-fade-up">

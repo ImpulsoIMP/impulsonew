@@ -19,8 +19,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <div className="flex-shrink-0">
-              <span className="text-2xl font-bold text-royal">IMP</span>
+            <div className="flex-shrink-0 flex items-center">
+              <img
+                src="/lovable-uploads/b41fc22a-aeb8-47f7-96d9-ab08ba005cc2.png"
+                alt="Impulso Logo"
+                className="h-10 w-10 mr-2"
+              />
+              <span className="text-2xl font-bold text-royal">Impulso</span>
             </div>
           </div>
           <div className="hidden md:block">
