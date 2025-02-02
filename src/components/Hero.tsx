@@ -33,7 +33,7 @@ const Hero = () => {
             <ArrowRight className="ml-2 h-5 w-5" />
           </a>
           <a
-            href="#whitepaper"
+            href="https://github.com/ImpulsoIMP/impulso-NEW/raw/main/public/Whitepaper%20de%20Impulso.pdf" target="_blank"
             className="inline-flex items-center px-8 py-3 border border-bluegray text-base font-medium rounded-md text-bluegray hover:text-white hover:border-white transition-colors"
           >
             Leer Whitepaper
