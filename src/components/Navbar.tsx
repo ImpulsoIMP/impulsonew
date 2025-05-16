@@ -9,7 +9,7 @@ const Navbar = () => {
     { name: "Farming", href: "#farming" },
     { name: "Game", href: "https://dapp-impulso-hub.lovable.app/" target="_blank" },
     { name: "Shop", href: "#shop" },
-    { name: "NFT Market", href: "#nft" },
+    { name: "NFT Market", href: "https://impulso.on-fleek.app/marketNFT.html/" },
     { name: "Betting", href: "#betting" },
     { name: "Investments", href: "#investments" },
   ];
