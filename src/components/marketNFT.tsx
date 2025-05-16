@@ -94,27 +94,27 @@ const marketNFT = () => {
     <h2>Tarjetas NFT con Dividendos</h2>
     <div class="nft-cards">
       <div class="card">
-        <img src="impstar.png" alt="IMP Start">
+        <img src="https://github.com/ImpulsoIMP/impulsonew/blob/main/public/impstar.png" alt="IMP Start">
         <h3>IMP Start</h3>
         <p>0.2% Dividendos · $50 USD</p>
       </div>
       <div class="card">
-        <img src="impdrive.jpg" alt="IMP Drive">
+        <img src="https://github.com/ImpulsoIMP/impulsonew/blob/main/public/impdrive.jpg" alt="IMP Drive">
         <h3>IMP Drive</h3>
         <p>0.4% Dividendos · $100 USD</p>
       </div>
       <div class="card">
-        <img src="impcore.png" alt="IMP Core">
+        <img src="https://github.com/ImpulsoIMP/impulsonew/blob/main/public/impcore.png" alt="IMP Core">
         <h3>IMP Core</h3>
         <p>0.6% Dividendos · $200 USD</p>
       </div>
       <div class="card">
-        <img src="impquantum.png" alt="IMP Quantum">
+        <img src="https://github.com/ImpulsoIMP/impulsonew/blob/main/public/impquantum.png" alt="IMP Quantum">
         <h3>IMP Quantum</h3>
         <p>0.8% Dividendos · $350 USD</p>
       </div>
       <div class="card">
-        <img src="impgenesis.png" alt="IMP Genesis">
+        <img src="https://github.com/ImpulsoIMP/impulsonew/blob/main/public/impgenesis.png" alt="IMP Genesis">
         <h3>IMP Genesis</h3>
         <p>1.0% Dividendos · $500 USD</p>
       </div>
