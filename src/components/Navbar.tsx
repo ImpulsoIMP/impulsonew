@@ -7,7 +7,7 @@ const Navbar = () => {
   const menuItems = [
     { name: "Staking", href: "#staking" },
     { name: "Farming", href: "#farming" },
-    { name: "Juegos", href: "https://dapp-impulso-hub.lovable.app/" target="_blank" },
+    { name: "Juegos", href: "#game" },
     { name: "Tienda", href: "#shop" },
     { name: "NFT Market", href: "/marketNFT" },
     { name: "Betting", href: "#betting" },
