@@ -30,15 +30,17 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              {menuItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="text-bluegray hover:text-royal px-3 py-2 rounded-md text-sm font-medium transition-colors"
-                >
-                  {item.name}
-                </a>
-              ))}
+             {menuItems.map((item) => (
+  <a
+    key={item.name}
+    href={item.href}
+    target={item.external ? "_blank" : undefined}
+    rel={item.external ? "noopener noreferrer" : undefined}
+    className="text-bluegray hover:text-royal px-3 py-2 rounded-md text-sm font-medium transition-colors"
+  >
+    {item.name}
+  </a>
+))}
             </div>
           </div>
           <div className="md:hidden">
