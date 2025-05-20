@@ -15,5 +15,17 @@ export function useIsMobile() {
     return () => mql.removeEventListener("change", onChange)
   }, [])
 
+  {menuItems.map((item) => (
+  <a
+    key={item.name}
+    href={item.href}
+    target={item.external ? "_blank" : undefined}
+    rel={item.external ? "noopener noreferrer" : undefined}
+    className="text-bluegray hover:text-royal px-3 py-2 rounded-md text-sm font-medium transition-colors"
+  >
+    {item.name}
+  </a>
+))}
+
   return !!isMobile
 }
