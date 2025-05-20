@@ -38,7 +38,7 @@ const Features = () => {
       title: "Mercado NFT",
       description: "Comercia con activos digitales únicos",
       icon: Image,
-      href: "https://impulso.on-fleek.app/marketNFT.html/",
+      href: "/marketNFT",
     },
     {
       title: "Apuestas",
