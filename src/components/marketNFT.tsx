@@ -8,7 +8,7 @@ const MarketNFT = () => {
       name: "IMP Start",
       image: "/impstar.png",
       price: "0.2% IMP",
-      link: "https://example.com/compra/imp-start",
+      link: "https://google.com",
     },
     {
       name: "IMP Drive",
@@ -48,30 +48,28 @@ const MarketNFT = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {items.map((item, index) => (
-            <div
-              key={index}
-              className="bg-[#0c1a4b] p-6 rounded-xl shadow-md border border-[#1e2d5c]"
-            >
-              <div className="h-48 w-full flex items-center justify-center overflow-hidden mb-4">
-                <img
-                  src={item.image}
-                  alt={item.name}
-                  className="h-full object-contain"
-                />
-              </div>
-              <h2 className="text-xl font-bold text-[#89b4ff]">{item.name}</h2>
-              <p className="my-2">{item.price}</p>
-              <a
-                href={item.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-2 inline-flex items-center gap-2 px-4 py-2 bg-[#69a8ff] text-black rounded hover:bg-[#89b4ff] transition"
-              >
-                Comprar <ShoppingCart size={18} />
-              </a>
-            </div>
-          ))}
-        </div>
+  <div
+    key={index}
+    className="bg-[#0c1a4b] p-6 rounded-xl shadow-md border border-[#1e2d5c]"
+  >
+    <img
+      src={item.image}
+      alt={item.name}
+      className="h-48 w-full object-contain mb-4 rounded"
+    />
+    <h2 className="text-xl font-bold text-[#89b4ff]">{item.name}</h2>
+    <p className="my-2">{item.price}</p>
+    <a
+      href={item.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-2 inline-flex items-center gap-2 px-4 py-2 bg-[#69a8ff] text-black rounded hover:bg-[#89b4ff] transition"
+    >
+      Comprar <ShoppingCart size={18} />
+    </a>
+  </div>
+))}
+
       </main>
 
       <Footer />
