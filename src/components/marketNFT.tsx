@@ -20,13 +20,13 @@ const MarketNFT = () => {
       name: "IMP Core",
       image: "/impcore.png",
       price: "0.6% IMP",
-      link: "https://example.com/compra/imp-core",
+      link: "https://example.com/compra/imp-core2",
     },
     {
       name: "IMP Quantum",
       image: "/impquantum.png",
       price: "0.8% IMP",
-      link: "https://example.com/compra/imp-quantum",
+      link: "https://example.com/compra/imp-quantum1",
     },
     {
       name: "IMP Genesis",
