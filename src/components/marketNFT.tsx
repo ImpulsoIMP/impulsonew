@@ -8,19 +8,19 @@ const MarketNFT = () => {
       name: "IMP Start",
       image: "/impstar.png",
       price: "0.2% IMP",
-      link: "https://example.com/compra/imp-start",
+      link: "https://launchmynft.io/sol/16469",
     },
     {
       name: "IMP Drive",
       image: "/impdrive.jpg",
       price: "0.4% IMP",
-      link: "https://example.com/compra/imp-drive",
+      link: "https://launchmynft.io/sol/16470",
     },
     {
       name: "IMP Core",
       image: "/impcore.png",
       price: "0.6% IMP",
-      link: "https://example.com/compra/imp-core2",
+      link: "https://launchmynft.io/sol/16471",
     },
     {
       name: "IMP Quantum",
@@ -32,7 +32,7 @@ const MarketNFT = () => {
       name: "IMP Genesis",
       image: "/impgenesis.png",
       price: "1.0% IMP",
-      link: "https://example.com/compra/imp-genesis",
+      link: "https://launchmynft.io/sol/16474",
     },
   ];
 
