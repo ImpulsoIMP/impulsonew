@@ -26,7 +26,7 @@ const Features = () => {
       title: "Juego",
       description: "Juega para ganar en nuestro ecosistema inmersivo",
       icon: Gamepad2,
-      href: "https://dapp-impulso-hub.lovable.app/", external: true",
+      href: "https://dapp-impulso-hub.lovable.app/", external: true,
     },
     {
       title: "Tienda",
