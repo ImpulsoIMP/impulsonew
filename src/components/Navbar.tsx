@@ -5,7 +5,6 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    { name: "Inicio", href: "/" },
     { name: "Staking", href: "#staking" },
     { name: "Farming", href: "#farming" },
     { name: "Juegos", href: "https://dapp-impulso-hub.lovable.app/", external: true },
@@ -21,7 +20,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-              <Link to="/" className="flex items-center">
+              <Link to="https://impulso.on-fleek.app/" className="flex items-center">
               <img
                 src="/lovable-uploads/b41fc22a-aeb8-47f7-96d9-ab08ba005cc2.png"
                 alt="Impulso Logo"
