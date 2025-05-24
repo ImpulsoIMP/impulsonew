@@ -26,7 +26,7 @@ const MarketNFT = () => {
       name: "IMP Quantum",
       image: "/impquantum.png",
       price: "0.8% IMP",
-      link: "https://example.com/compra/imp-quantum1",
+      link: "https://launchmynft.io/sol/16472",
     },
     {
       name: "IMP Genesis",
