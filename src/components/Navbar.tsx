@@ -11,7 +11,7 @@ const Navbar = () => {
     { name: "Tienda", href: "#shop" },
     { name: "NFT Market", href: "/marketNFT" },
     { name: "Betting", href: "#betting" },
-    { name: "Investments", href: "#investments" },
+    { name: "Investments", href: "/Investing" },
   ];
 
   return (
