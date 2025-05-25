@@ -5,12 +5,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    { name: "Staking", href: "#staking" },
-    { name: "Farming", href: "#farming" },
+    { name: "Staking", href: "/Staking" },
+    { name: "Farming", href: "/Farming" },
     { name: "Juegos", href: "https://dapp-impulso-hub.lovable.app/", external: true },
-    { name: "Tienda", href: "#shop" },
+    { name: "Tienda", href: "/Shop" },
     { name: "NFT Market", href: "/marketNFT" },
-    { name: "Betting", href: "#betting" },
+    { name: "Betting", href: "/Betting" },
     { name: "Investments", href: "/Investing" },
   ];
 
