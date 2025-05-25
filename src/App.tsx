@@ -7,6 +7,10 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import MarketNFT from "@/components/marketNFT";
 import Investing from './pages/Investing';
+import Staking from './pages/Staking';
+import Farming from './pages/Farming';
+import Shop from './pages/Shop';
+import Betting from './pages/Betting';
 
 
 const queryClient = new QueryClient();
@@ -21,6 +25,10 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/marketNFT" element={<MarketNFT />} />
           <Route path="/investments" element={<Investing />} />
+          <Route path="/staking" element={<Staking />} />
+          <Route path="/farming" element={<Farming />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/betting" element={<Betting />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
