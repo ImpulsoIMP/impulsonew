@@ -1,4 +1,6 @@
 import React from 'react';
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const Investing = () => {
   // Puedes reemplazar estas fechas con lógica dinámica si tienes un backend
