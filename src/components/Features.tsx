@@ -14,13 +14,13 @@ const Features = () => {
       title: "Staking",
       description: "Gana recompensas haciendo staking de tus tokens IMP",
       icon: Coins,
-      href: "#staking",
+      href: "/Staking",
     },
     {
       title: "Farming",
       description: "Participa en yield farming con múltiples pools",
       icon: Sprout,
-      href: "#farming",
+      href: "/Farming",
     },
     {
       title: "Juego",
@@ -32,7 +32,7 @@ const Features = () => {
       title: "Tienda",
       description: "Compra artículos con tokens IMP",
       icon: ShoppingBag,
-      href: "#shop",
+      href: "/Shop",
     },
     {
       title: "Mercado NFT",
@@ -44,7 +44,7 @@ const Features = () => {
       title: "Apuestas",
       description: "Participa en apuestas seguras con cripto",
       icon: DollarSign,
-      href: "#betting",
+      href: "/Betting",
     },
     {
       title: "Inversiones",
