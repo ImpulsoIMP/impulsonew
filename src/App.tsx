@@ -24,7 +24,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/marketNFT" element={<MarketNFT />} />
-          <Route path="/investments" element={<Investing />} />
+          <Route path="/investing" element={<Investing />} />
           <Route path="/staking" element={<Staking />} />
           <Route path="/farming" element={<Farming />} />
           <Route path="/shop" element={<Shop />} />
