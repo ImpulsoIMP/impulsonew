@@ -50,7 +50,7 @@ const Features = () => {
       title: "Inversiones",
       description: "Haz crecer tu portafolio con IMP",
       icon: PiggyBank,
-      href: "#investments",
+      href: "/Investing",
     },
   ];
 
