@@ -6,11 +6,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import MarketNFT from "@/components/marketNFT";
-import Investing from './pages/Investing';
-import Staking from './pages/Staking';
-import Farming from './pages/Farming';
-import Shop from './pages/Shop';
-import Betting from './pages/Betting';
+import Investing from '@/components/Investing';
+import Staking from '@/components/Staking';
+import Farming from '@/components/Farming';
+import Shop from '@/components/Shop';
+import Betting from '@/components/Betting';
 
 
 const queryClient = new QueryClient();
