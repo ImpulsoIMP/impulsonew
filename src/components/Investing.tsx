@@ -21,7 +21,7 @@ const Investing = () => {
           <li>✔️ Desarrollo del juego "Impulso Racing" alcanzó su fase beta.</li>
           <li>✔️ Integración con exchanges descentralizados completada.</li>
           <li>✔️ Primeras 100 Yield Cards IMP distribuidas con éxito.</li>
-          <li>✔️ Smart contracts de dividendos auditados y desplegados en mainnet.</li>
+          <li>✔️ Smart contracts de dividendos desplegados en mainnet.</li>
         </ul>
       </section>
 
