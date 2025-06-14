@@ -38,8 +38,8 @@ const Investing = () => {
 
         <section className="bg-[#111c44] rounded-xl p-6 shadow-md">
           <h2 className="text-2xl font-semibold mb-4">Progreso de recaudación</h2>
-          <p className="mb-2">Total a recaudar: <strong>${totalTarget.toLocaleString()}</strong></p>
-          <p className="mb-2">Recaudado hasta ahora: <strong>${collectedFunds.toLocaleString()}</strong></p>
+          <p className="mb-2">🎯 Total a recaudar: <strong>${totalTarget.toLocaleString()}</strong></p>
+          <p className="mb-2">💰 Recaudado hasta ahora: <strong>${collectedFunds.toLocaleString()}</strong></p>
           <Progress value={progressPercentage} className="h-4 mt-4" />
         </section>
 
